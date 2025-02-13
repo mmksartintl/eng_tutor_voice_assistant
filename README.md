@@ -31,7 +31,7 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3
 
 5) create a config.toml file indicating the certificates to streamlit
 
-mkdir .streamlit
+mkdir .streamlit  
 cat .streamlit/config.toml
 
 [server]  
