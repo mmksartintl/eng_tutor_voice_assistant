@@ -34,8 +34,8 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3
 mkdir .streamlit
 cat .streamlit/config.toml
 
-[server]
-sslCertFile = './cert.pem'
+[server]  
+sslCertFile = './cert.pem'  
 sslKeyFile = './key.pem'
 
 6) streamlit run main2.py
